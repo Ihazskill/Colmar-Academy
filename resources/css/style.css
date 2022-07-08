@@ -1,44 +1,20 @@
 /* Universal Styles */
 body {
-  background-color: black;
+  background-color: white;
+  font-family: helvetica, sans-serif;
 }
-h1{
-  font-family: verdana;
-  font-weight: normal;
-  font-size: 50px;
-  color: white;
-  text-align: center;
+.dark{
+font-size: 32px;
+color: #414544;
+font-weight: 700;
 }
-
-h2{
-  font-family: verdana;
-  font-weight: 300;
-  font-size: 42px;
-  color: white;
-  text-align: center;
-
-}
-.gray{
-  font-family: verdana;
-  font-weight: 200;
-  font-size: 21px;
-  color: gray;
-  text-align: center;
-
-}
-.bluelink {
-  color: aquamarine;
-  font-size: 16px;
-
-}
-p{
-  text-align: center;
-  font-family: verdana;
-}
-.video{
-  text-align: center; 
+.light{
+  font-size: 32px;
+  color: #959c9a;
+  font-weight: 500;
 }
 
-#right{
-  text-align: right;
+.logo {
+  display: flex;
+  align-items: center;
 }
