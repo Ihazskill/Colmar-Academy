@@ -18,3 +18,21 @@ font-weight: 700;
   display: flex;
   align-items: center;
 }
+
+#navbar{
+  display: flex;
+  margin-right: 24px;
+  justify-content: right;
+  text-align: right;
+}
+
+#navbar li {
+  display: inline;
+  padding-left: 16px;
+  align-items: flex-end;
+  justify-content: right;
+
+}
+.topnav-right {
+
+}
